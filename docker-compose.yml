@@ -1,0 +1,15 @@
+version: '2'
+services:
+  server-1:
+    image: clue/json-server
+    ports:
+      - 1111:80
+    volumes:
+      - ./people.json:/data/db.json
+  server-2:
+    image: clue/json-server
+    ports:
+      - 2222:80
+    volumes:
+      - ./places.json:/data/db.json
+
