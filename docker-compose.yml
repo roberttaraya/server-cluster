@@ -7,7 +7,7 @@ services:
     volumes:
       #- ./data1.json:/data/db.json
       - ./service1.js:/data/file.js
-      - ./config/:/data/config/
+      - ./config/service1/:/data/config/service1/
   server-2:
     image: clue/json-server
     ports:
@@ -15,4 +15,4 @@ services:
     volumes:
       #- ./data2.json:/data/db.json
       - ./service2.js:/data/file.js
-      - ./config/:/data/config/
+      - ./config/service2/:/data/config/service2/
