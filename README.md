@@ -23,6 +23,12 @@ go to `localhost:1111` to view the json-server welcome page for service1
 
 ...same thing for service2
 
+### to add more services
+
+  * add json to new service# directory
+  * add new service#.js
+  * update docker-compose.yml with new service
+
 ## for more info
 
 * https://github.com/clue/docker-json-server
