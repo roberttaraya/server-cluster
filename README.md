@@ -20,6 +20,7 @@ go to `localhost:1111` to view the json-server welcome page for service1
 
   * localhost:1111/people
   * localhost:1111/places
+  * localhost:1111/health-check
 
 ...same thing for service2
 
