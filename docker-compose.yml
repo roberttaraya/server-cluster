@@ -5,11 +5,14 @@ services:
     ports:
       - 1111:80
     volumes:
-      - ./people.json:/data/db.json
+      #- ./data1.json:/data/db.json
+      - ./service1.js:/data/file.js
+      - ./config/:/data/config/
   server-2:
     image: clue/json-server
     ports:
       - 2222:80
     volumes:
-      - ./places.json:/data/db.json
-
+      #- ./data2.json:/data/db.json
+      - ./service2.js:/data/file.js
+      - ./config/:/data/config/
