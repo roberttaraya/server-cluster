@@ -1,0 +1,19 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "locationName": "San Francisco",
+      "locationState": "California"
+    },
+    {
+      "id": 2,
+      "locationName": "Dallas",
+      "locationState": "California"
+    },
+    {
+      "id": 3,
+      "locationName": "Hercules",
+      "locationState": "California"
+    }
+  ]
+}
